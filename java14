@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+int age;
+System.out.println("enter your age");
+Scanner sc= new Scanner(System.in);
+age = sc.nextInt();
+switch (age){
+	case 1:
+    System.out.println("no you are not eligible for voting");
+    break;
+    case 3:
+    System.out.println("no you are not eligible for voting");
+    break;
+    case 18:
+    System.out.println("you are eligible for voting");
+    break;
+    default:
+    System.out.println("may b eligible or not");
+}
+}
+}
